@@ -3,32 +3,31 @@ body {
     font-family: Century Gothic;
 }
 
-.mycontainer{
-    background-color: white;
-    width:55%;
-    margin: 0 auto 0 auto;
-}
-
-.mycontainerblack{
+.heading {
+    font-size: 20px;
+    text-align:center;
     color: white;
     background-color: black;
-    width:55%;
+}
+
+.container{
+    background-color: white;
+    width:70%;
     margin: 0 auto 0 auto;
 }
 
-.myimage {
+.pod {
     width: 100%;
 }
 
-@media only screen and (max-width: 576px) {
+.background {
+    background-color:white;
+}
 
-    .mycontainer{
-        padding: 1px;
+@media only screen and (max-width: 700px) {
+
+    .container{
         width:100%;
     }
 
-    .mycontainerblack{
-        padding: 1px;
-        width:100%;
-    }
 }
