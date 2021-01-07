@@ -8,13 +8,16 @@ function contentLoaded(){
     .then(res=>res.json())
     .then(data=>{
 
-        let media = `<img class="myimage" src="${data.hdurl}">`;
+        let media = `<img class="pod" src="${data.hdurl}">`;
     
         apodElement.innerHTML = (`
-            <div>
-                ${media}
+            <div class="heading">
+                <h1>NASA Picture of the Day</h1>
+                <div class="background">
+                    ${media}
+                </div>
             </div>
-            <div class="card">
+            <div class="card" style="margin-top:1rem">
 
                 <span>${data.title}</span>
                 <p>
