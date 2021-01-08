@@ -1,18 +1,18 @@
 body {
-    background-color: black;
+    background-color: #0d0d0d;
     font-family: Century Gothic;
 }
 
 .heading {
     font-size: 20px;
-    text-align:center;
+    text-align: center;
     color: white;
-    background-color: black;
+    background-color: #0d0d0d;
 }
 
-.container{
+.container {
     background-color: white;
-    width:70%;
+    width: 70%;
     margin: 0 auto 0 auto;
 }
 
@@ -21,13 +21,22 @@ body {
 }
 
 .background {
-    background-color:white;
+    background-color: white;
 }
 
-@media only screen and (max-width: 700px) {
+.card {
+    margin: 20px;
+    padding-bottom: 0.5rem;
+}
 
-    .container{
-        width:100%;
+.bigtext {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container {
+        width: 100%;
     }
 
 }
