@@ -17,7 +17,7 @@ function contentLoaded(){
                 <div class="background">
                     ${media}
                 </div>
-                
+
             </div>
             <div class="card">
 
@@ -34,4 +34,4 @@ function contentLoaded(){
     })
 }
 
-window.addEventListener("DOMContentLoaded", contentLoaded)
+window.addEventListener("DOMContentLoaded", contentLoaded);
