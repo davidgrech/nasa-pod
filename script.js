@@ -12,24 +12,26 @@ function contentLoaded(){
     
         apodElement.innerHTML = (`
             <div class="heading">
+
                 <h1>NASA Picture of the Day</h1>
                 <div class="background">
                     ${media}
                 </div>
+                
             </div>
-            <div class="card" style="margin-top:1rem">
+            <div class="card">
 
-                <span>${data.title}</span>
-                <p>
-                    ${data.explanation}
-                </p>
+                <span class="bigtext">${data.title}</span>
+
+                <p>${data.explanation}</p>
 
                 <p>${(new Date(data.date)).toDateString()}</p>
+
                 <p>© ${data.copyright}</p>
+
             </div>
         `)
     })
-
 }
 
 window.addEventListener("DOMContentLoaded", contentLoaded)
